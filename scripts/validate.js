@@ -36,8 +36,28 @@ for (const file of files) {
     }
 
     if (!data.github || !data.github.startsWith('https://github.com/')) {
-      console.error(`❌ [${file}] "github" must be a valid GitHub URL`);
+      console.error(`❌ [${file}] "github" must be a valid HTTPS GitHub URL (https://github.com/...)`);
       hasError = true;
+    }
+
+    if (!/^[a-z0-9-]+$/.test(data.id) || !/^[a-z0-9-]+$/.test(data.slug)) {
+      console.error(`❌ [${file}] "id" and "slug" must only contain lowercase alphanumeric characters and hyphens`);
+      hasError = true;
+    }
+
+    if (file !== `${data.id}.json`) {
+      console.error(`❌ [${file}] Filename must match agent id: "${data.id}.json"`);
+      hasError = true;
+    }
+
+    // Security check: Anti-XSS and payload injection check across all fields
+    const rawString = JSON.stringify(data).toLowerCase();
+    const maliciousPatterns = ['<script', '<img', 'onerror=', 'onload=', 'javascript:', '<iframe', '<object', '<embed'];
+    for (const pattern of maliciousPatterns) {
+      if (rawString.includes(pattern)) {
+        console.error(`❌ [${file}] Security Violation: Detected forbidden pattern "${pattern}"`);
+        hasError = true;
+      }
     }
 
     if (!data.quickstart || !data.quickstart.type || !data.quickstart.command) {
