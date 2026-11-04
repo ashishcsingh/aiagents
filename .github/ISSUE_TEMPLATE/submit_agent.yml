@@ -1,0 +1,80 @@
+name: 🚀 Submit an AI Agent to the Registry
+description: Submit a new open-source AI agent or tool to be indexed on aiagent.org/agents
+title: "[Agent Submission]: "
+labels: ["agent-submission", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting your agent! All approved submissions are indexed on [aiagent.org/agents](https://aiagent.org/agents).
+  - type: input
+    id: agent_name
+    attributes:
+      label: Agent Name
+      description: The official display name of your agent.
+      placeholder: "e.g., CodeWeaver AI"
+    validations:
+      required: true
+  - type: input
+    id: agent_id
+    attributes:
+      label: Agent ID (slug)
+      description: Lowercase alphanumeric slug with hyphens.
+      placeholder: "e.g., codeweaver-ai"
+    validations:
+      required: true
+  - type: input
+    id: tagline
+    attributes:
+      label: Tagline
+      description: A concise, punchy description (max 120 characters).
+      placeholder: "e.g., Autonomous test generation agent that runs unit suites in local Docker containers."
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Primary Category
+      options:
+        - "coding (Coding & SWE)"
+        - "research (Research & Web)"
+        - "multiagent (Multi-Agent Systems)"
+        - "productivity (Productivity & Docs)"
+        - "devops (DevOps & Cloud)"
+        - "data (Data & SQL)"
+    validations:
+      required: true
+  - type: input
+    id: github_url
+    attributes:
+      label: GitHub Repository URL
+      description: Link to your public repository.
+      placeholder: "https://github.com/your-org/your-agent"
+    validations:
+      required: true
+  - type: dropdown
+    id: runtime_type
+    attributes:
+      label: Execution Runtime
+      description: Does this agent require Docker or run locally via pip/npm?
+      options:
+        - "Zero-Docker (Python Pip)"
+        - "Zero-Docker (NPM / NPX)"
+        - "Docker Container"
+    validations:
+      required: true
+  - type: input
+    id: quickstart_cmd
+    attributes:
+      label: Quickstart CLI Command
+      description: The exact command a developer runs in terminal to launch or test your agent.
+      placeholder: "pip install my-agent && my-agent run"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Detailed Description & Architecture
+      description: How your agent works, models supported, and required tools.
+    validations:
+      required: true
