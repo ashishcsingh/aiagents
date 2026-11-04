@@ -1,0 +1,39 @@
+{
+  "id": "gpt-researcher",
+  "name": "GPT-Researcher",
+  "slug": "gpt-researcher",
+  "tagline": "Autonomous agent for in-depth online research, citation aggregation, and synthesis reports.",
+  "category": "research",
+  "categoryLabel": "Research & Web",
+  "framework": "langgraph",
+  "frameworkLabel": "LangGraph",
+  "author": "Tavily AI",
+  "github": "https://github.com/assafelovic/gpt-researcher",
+  "stars": "18k+",
+  "license": "Apache-2.0",
+  "verified": true,
+  "featured": true,
+  "recommendedModels": [
+    "gpt-4o",
+    "claude-3-5-sonnet",
+    "gemini-2.0-flash"
+  ],
+  "toolsRequired": [
+    "Tavily Search API",
+    "Web Scraper",
+    "Markdown Document Synthesizer"
+  ],
+  "tags": [
+    "research",
+    "tavily",
+    "scraping",
+    "synthesis",
+    "langgraph",
+    "citations"
+  ],
+  "description": "GPT Researcher produces comprehensive, cited, multi-page analytical reports by scraping over 20 web sources in parallel, cross-verifying claims, and assembling structured outlines.",
+  "quickstart": {
+    "type": "Python Pip",
+    "command": "pip install gpt-researcher"
+  }
+}

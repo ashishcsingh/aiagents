@@ -1,0 +1,38 @@
+{
+  "id": "autogen-magentic-one",
+  "name": "Magentic-One (AutoGen)",
+  "slug": "autogen-magentic-one",
+  "tagline": "Generalist multi-agent system from Microsoft Research solving complex multi-step digital tasks.",
+  "category": "multiagent",
+  "categoryLabel": "Multi-Agent",
+  "framework": "autogen",
+  "frameworkLabel": "Microsoft AutoGen",
+  "author": "Microsoft Research",
+  "github": "https://github.com/microsoft/autogen",
+  "stars": "37k+",
+  "license": "MIT",
+  "verified": true,
+  "featured": true,
+  "recommendedModels": [
+    "gpt-4o",
+    "claude-3-5-sonnet"
+  ],
+  "toolsRequired": [
+    "WebSurfer Browser",
+    "Coder Sandbox",
+    "FileSurfer",
+    "Terminal"
+  ],
+  "tags": [
+    "autogen",
+    "microsoft",
+    "magentic-one",
+    "multi-agent",
+    "orchestration"
+  ],
+  "description": "Magentic-One is a multi-agent team directed by an Orchestrator agent. It routes tasks to specialized WebSurfer, FileSurfer, and Coder agents to execute web research, coding, and file handling.",
+  "quickstart": {
+    "type": "Python Pip",
+    "command": "pip install autogen-agentchat autogen-ext[magentic-one]"
+  }
+}

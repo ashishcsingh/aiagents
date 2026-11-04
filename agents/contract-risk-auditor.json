@@ -1,0 +1,38 @@
+{
+  "id": "contract-risk-auditor",
+  "name": "Contract & Lease Risk Auditor",
+  "slug": "contract-risk-auditor",
+  "tagline": "Instant plain-English legal risk auditor identifying hidden liability, indemnification, and auto-renewals.",
+  "category": "productivity",
+  "categoryLabel": "Productivity & Docs",
+  "framework": "standalone",
+  "frameworkLabel": "Gemini & NotebookLM Native",
+  "author": "aiagent.org Core",
+  "github": "https://github.com/ashishcsingh/aiagents",
+  "stars": "Verified",
+  "license": "Apache-2.0",
+  "verified": true,
+  "featured": true,
+  "recommendedModels": [
+    "gemini-2.0-flash",
+    "claude-3-5-sonnet"
+  ],
+  "toolsRequired": [
+    "PDF Document Extractor",
+    "Clause Risk Rubric",
+    "Plain-English Translator"
+  ],
+  "tags": [
+    "legal",
+    "contracts",
+    "leases",
+    "gemini",
+    "pdf",
+    "productivity"
+  ],
+  "description": "Specialized agent prompt pipeline that parses lengthy PDF contracts, compares provisions against consumer protection standards, and highlights predatory termination penalties in under 10 seconds.",
+  "quickstart": {
+    "type": "Browser Guide",
+    "command": "Open https://aiagent.org/articles/2026-11-03/tame-long-pdfs-contracts-ai/ to run in Gemini / NotebookLM"
+  }
+}

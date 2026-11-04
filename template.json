@@ -1,0 +1,34 @@
+{
+  "id": "agent-slug",
+  "name": "Display Name of Your Agent",
+  "slug": "agent-slug",
+  "tagline": "One-line punchy description of what this agent does (under 120 chars).",
+  "category": "coding",
+  "categoryLabel": "Coding & SWE",
+  "framework": "standalone",
+  "frameworkLabel": "Python / Standalone",
+  "author": "YourGitHubUsername",
+  "github": "https://github.com/your-username/your-agent-repo",
+  "stars": "1k+",
+  "license": "MIT",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "gpt-4o"
+  ],
+  "toolsRequired": [
+    "Bash Terminal",
+    "File Editor"
+  ],
+  "tags": [
+    "coding",
+    "autonomous",
+    "developer-tools"
+  ],
+  "description": "Comprehensive explanation of what this agent does, its architecture, memory systems, tools, and execution model.",
+  "quickstart": {
+    "type": "Python Pip",
+    "command": "pip install your-agent-package && your-agent start"
+  }
+}

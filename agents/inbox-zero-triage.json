@@ -1,0 +1,38 @@
+{
+  "id": "inbox-zero-triage",
+  "name": "7-Minute Inbox Zero Triage Agent",
+  "slug": "inbox-zero-triage",
+  "tagline": "Triage 50+ unread emails, extract urgent action items, and draft replies in your exact voice.",
+  "category": "productivity",
+  "categoryLabel": "Productivity & Docs",
+  "framework": "standalone",
+  "frameworkLabel": "Claude & Gmail API",
+  "author": "aiagent.org Core",
+  "github": "https://github.com/ashishcsingh/aiagents",
+  "stars": "Verified",
+  "license": "Apache-2.0",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "gpt-4o",
+    "gemini-2.0-flash"
+  ],
+  "toolsRequired": [
+    "IMAP/Gmail API",
+    "Tone Matcher",
+    "Action Item Parser"
+  ],
+  "tags": [
+    "email",
+    "productivity",
+    "inbox-zero",
+    "claude",
+    "communication"
+  ],
+  "description": "Classifies incoming email by urgency (Urgent, Need Input, Low Priority, Newsletters), generates 1-sentence decision summaries, and prepares context-aware reply drafts ready for 1-click sending.",
+  "quickstart": {
+    "type": "Browser Guide",
+    "command": "Open https://aiagent.org/articles/2026-10-30/inbox-zero-7-minute-routine/ to run the 7-minute routine"
+  }
+}

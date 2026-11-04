@@ -1,0 +1,38 @@
+{
+  "id": "browser-use",
+  "name": "Browser-Use",
+  "slug": "browser-use",
+  "tagline": "Connect AI agents directly to the browser for automated web navigation, form filling, and data scraping.",
+  "category": "research",
+  "categoryLabel": "Research & Web",
+  "framework": "standalone",
+  "frameworkLabel": "Python / Playwright",
+  "author": "browser-use",
+  "github": "https://github.com/browser-use/browser-use",
+  "stars": "29k+",
+  "license": "MIT",
+  "verified": true,
+  "featured": true,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "gpt-4o"
+  ],
+  "toolsRequired": [
+    "Playwright Browser",
+    "Vision Screen Inspector",
+    "DOM Tree Parser"
+  ],
+  "tags": [
+    "browser",
+    "web-automation",
+    "scraping",
+    "playwright",
+    "vision",
+    "automation"
+  ],
+  "description": "Browser-Use gives LLMs sight and control over a real Chromium browser. It converts interactive web elements into accessible coordinate systems and handles multi-tab navigation, authentication, and dynamic web applications.",
+  "quickstart": {
+    "type": "Python Pip",
+    "command": "pip install browser-use playwright && playwright install"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "smolagents-codeagent",
+  "name": "Hugging Face Smolagents",
+  "slug": "smolagents-codeagent",
+  "tagline": "Minimalist, code-first AI agent framework executing actions as Python code blocks.",
+  "category": "coding",
+  "categoryLabel": "Coding & SWE",
+  "framework": "smolagents",
+  "frameworkLabel": "smolagents",
+  "author": "Hugging Face",
+  "github": "https://github.com/huggingface/smolagents",
+  "stars": "14k+",
+  "license": "Apache-2.0",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "qwen-2.5-coder",
+    "claude-3-5-sonnet",
+    "deepseek-r1"
+  ],
+  "toolsRequired": [
+    "Python AST Sandbox",
+    "DuckDuckGo Search",
+    "HuggingFace Hub"
+  ],
+  "tags": [
+    "huggingface",
+    "smolagents",
+    "python",
+    "code-actions",
+    "minimalist"
+  ],
+  "description": "Smolagents writes executable Python code instead of raw JSON tool calls, unlocking expressiveness for loops, conditionals, and data transformations in ~1,000 lines of core framework code.",
+  "quickstart": {
+    "type": "Python Command",
+    "command": "pip install smolagents && python -c 'from smolagents import CodeAgent, HfApiModel; CodeAgent(tools=[], model=HfApiModel()).run(\"Hello!\")'"
+  }
+}

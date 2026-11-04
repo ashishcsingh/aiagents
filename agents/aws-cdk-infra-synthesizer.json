@@ -1,0 +1,38 @@
+{
+  "id": "aws-cdk-infra-synthesizer",
+  "name": "AWS CDK Infrastructure Synthesizer",
+  "slug": "aws-cdk-infra-synthesizer",
+  "tagline": "Converts architecture diagrams and natural language requirements into declarative AWS CDK v2 TypeScript/Python.",
+  "category": "devops",
+  "categoryLabel": "DevOps & Cloud",
+  "framework": "standalone",
+  "frameworkLabel": "Python / CDK CLI",
+  "author": "CloudOps Automation",
+  "github": "https://github.com/ashishcsingh/aiagents",
+  "stars": "Verified",
+  "license": "Apache-2.0",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "gpt-4o"
+  ],
+  "toolsRequired": [
+    "AWS CDK CLI",
+    "CloudFormation Linter",
+    "IAM Least-Privilege Rulebook"
+  ],
+  "tags": [
+    "aws",
+    "cdk",
+    "cloudformation",
+    "infrastructure",
+    "devops",
+    "iac"
+  ],
+  "description": "Synthesizes production-ready AWS CDK constructs with built-in KMS encryption, least-privilege IAM policies, VPC isolation, and CloudWatch metrics. Eliminates imperative Boto3 script drift.",
+  "quickstart": {
+    "type": "NPM / CLI",
+    "command": "npm install -g aws-cdk && cdk --version"
+  }
+}

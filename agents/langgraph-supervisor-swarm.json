@@ -1,0 +1,38 @@
+{
+  "id": "langgraph-supervisor-swarm",
+  "name": "LangGraph Supervisor Swarm",
+  "slug": "langgraph-supervisor-swarm",
+  "tagline": "Stateful cyclic graph agent team with human-in-the-loop pause, resume, and checkpointing.",
+  "category": "multiagent",
+  "categoryLabel": "Multi-Agent",
+  "framework": "langgraph",
+  "frameworkLabel": "LangGraph",
+  "author": "LangChain",
+  "github": "https://github.com/langchain-ai/langgraph",
+  "stars": "19k+",
+  "license": "MIT",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "gpt-4o",
+    "gemini-1.5-pro"
+  ],
+  "toolsRequired": [
+    "Postgres Checkpointer",
+    "Custom Tool Executor",
+    "State Schema"
+  ],
+  "tags": [
+    "langgraph",
+    "langchain",
+    "stateful",
+    "checkpoints",
+    "human-in-the-loop"
+  ],
+  "description": "Production architecture for multi-agent coordination using LangGraph. Features cyclic state updates, conditional branch routing, persistent Postgres checkpoints, and approval interrupts.",
+  "quickstart": {
+    "type": "Python Pip",
+    "command": "pip install langgraph langchain-openai"
+  }
+}

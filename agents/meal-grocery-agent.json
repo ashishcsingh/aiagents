@@ -1,0 +1,38 @@
+{
+  "id": "meal-grocery-agent",
+  "name": "Fridge-to-Table Meal & Grocery Agent",
+  "slug": "meal-grocery-agent",
+  "tagline": "Snap a photo of your fridge and generate a 5-day dinner menu with exact missing ingredient grocery lists.",
+  "category": "productivity",
+  "categoryLabel": "Productivity & Docs",
+  "framework": "standalone",
+  "frameworkLabel": "Gemini Multimodal",
+  "author": "aiagent.org Core",
+  "github": "https://github.com/ashishcsingh/aiagents",
+  "stars": "Verified",
+  "license": "Apache-2.0",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "gemini-2.0-flash",
+    "gpt-4o-mini"
+  ],
+  "toolsRequired": [
+    "Multimodal Vision OCR",
+    "Macro Nutrition Estimator",
+    "Grocery Aisle Grouper"
+  ],
+  "tags": [
+    "gemini",
+    "vision",
+    "meal-planning",
+    "grocery",
+    "budget",
+    "productivity"
+  ],
+  "description": "Analyzes raw photo uploads of your refrigerator shelves, categorizes perishable items by expiry urgency, plans meals around on-hand ingredients, and exports a shopping checklist organized by supermarket aisle.",
+  "quickstart": {
+    "type": "Browser Guide",
+    "command": "Open https://aiagent.org/articles/2026-11-03/smart-weekly-meal-budget-planner/ to run via Gemini"
+  }
+}

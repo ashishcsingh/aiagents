@@ -1,0 +1,37 @@
+{
+  "id": "stagehand-browser-agent",
+  "name": "Stagehand Web Automation Agent",
+  "slug": "stagehand-browser-agent",
+  "tagline": "AI web browsing framework with natural language act(), extract(), and observe() primitives.",
+  "category": "research",
+  "categoryLabel": "Research & Web",
+  "framework": "standalone",
+  "frameworkLabel": "TypeScript / Playwright",
+  "author": "Browserbase",
+  "github": "https://github.com/browserbase/stagehand",
+  "stars": "8k+",
+  "license": "MIT",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "gpt-4o"
+  ],
+  "toolsRequired": [
+    "Playwright Session",
+    "Accessibility Tree Parser",
+    "LLM Extraction Schema"
+  ],
+  "tags": [
+    "stagehand",
+    "browserbase",
+    "playwright",
+    "scraping",
+    "web-automation"
+  ],
+  "description": "Built by Browserbase, Stagehand provides 3 intuitive primitives for web automation: page.act() for clicking/typing in plain English, page.extract() for schema-typed extraction, and page.observe() for next-step planning.",
+  "quickstart": {
+    "type": "NPM / NPX",
+    "command": "npx -y stagehand init"
+  }
+}

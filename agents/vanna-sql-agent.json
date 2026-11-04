@@ -1,0 +1,38 @@
+{
+  "id": "vanna-sql-agent",
+  "name": "Vanna.ai SQL Agent",
+  "slug": "vanna-sql-agent",
+  "tagline": "RAG-driven autonomous Text-to-SQL agent with schema memory and query self-correction.",
+  "category": "data",
+  "categoryLabel": "Data & SQL",
+  "framework": "standalone",
+  "frameworkLabel": "Python / RAG",
+  "author": "Vanna AI",
+  "github": "https://github.com/vanna-ai/vanna",
+  "stars": "12k+",
+  "license": "MIT",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "gpt-4o",
+    "claude-3-5-sonnet"
+  ],
+  "toolsRequired": [
+    "PostgreSQL/Snowflake Connector",
+    "ChromaDB/Pinecone Vector Store",
+    "SQL Validator"
+  ],
+  "tags": [
+    "sql",
+    "database",
+    "analytics",
+    "rag",
+    "text-to-sql",
+    "bi"
+  ],
+  "description": "Vanna trains a vector store on your database DDL schemas, documentation, and historical queries to generate high-accuracy SQL, execute it safely, and plot data charts automatically.",
+  "quickstart": {
+    "type": "Python Pip",
+    "command": "pip install vanna"
+  }
+}

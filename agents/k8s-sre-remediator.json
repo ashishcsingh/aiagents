@@ -1,0 +1,38 @@
+{
+  "id": "k8s-sre-remediator",
+  "name": "Kubernetes SRE Incident Triage Agent",
+  "slug": "k8s-sre-remediator",
+  "tagline": "Autonomous Kubernetes diagnostics agent that parses CrashLoopBackOff logs, pod events, and OOM issues.",
+  "category": "devops",
+  "categoryLabel": "DevOps & Cloud",
+  "framework": "mcp",
+  "frameworkLabel": "MCP Native",
+  "author": "CloudOps Automation",
+  "github": "https://github.com/cloudops-agent/k8s-agent",
+  "stars": "5k+",
+  "license": "Apache-2.0",
+  "verified": true,
+  "featured": false,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "gpt-4o"
+  ],
+  "toolsRequired": [
+    "kubectl MCP Server",
+    "Prometheus Metrics Tool",
+    "Slack Bot"
+  ],
+  "tags": [
+    "kubernetes",
+    "devops",
+    "sre",
+    "troubleshooting",
+    "mcp",
+    "docker"
+  ],
+  "description": "Monitors Kubernetes alerts, runs investigative kubectl commands via Model Context Protocol (MCP), checks memory/CPU limits, identifies bad container config, and drafts incident postmortems.",
+  "quickstart": {
+    "type": "MCP Command",
+    "command": "npx -y @modelcontextprotocol/server-kubernetes"
+  }
+}

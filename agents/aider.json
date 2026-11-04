@@ -1,0 +1,39 @@
+{
+  "id": "aider",
+  "name": "Aider",
+  "slug": "aider",
+  "tagline": "AI pair programming in your terminal with Git repo map integration and multi-file editing.",
+  "category": "coding",
+  "categoryLabel": "Coding & SWE",
+  "framework": "standalone",
+  "frameworkLabel": "Python CLI",
+  "author": "Paul Gauthier",
+  "github": "https://github.com/Aider-AI/aider",
+  "stars": "28k+",
+  "license": "Apache-2.0",
+  "verified": true,
+  "featured": true,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "deepseek-r1",
+    "gpt-4o"
+  ],
+  "toolsRequired": [
+    "Git Repository Map",
+    "File AST Parser",
+    "Terminal Diff Applicator"
+  ],
+  "tags": [
+    "pair-programming",
+    "git",
+    "cli",
+    "terminal",
+    "refactoring",
+    "swe"
+  ],
+  "description": "Aider lets you pair program with frontier LLMs in your terminal. It builds a concise tree-sitter map of your entire Git codebase and automatically commits changes with descriptive Git commit messages.",
+  "quickstart": {
+    "type": "Python Pip",
+    "command": "pip install aider-chat && aider"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "openhands",
+  "name": "OpenHands (formerly OpenDevin)",
+  "slug": "openhands",
+  "tagline": "Autonomous AI software engineer that writes code, runs terminal commands, and resolves GitHub issues.",
+  "category": "coding",
+  "categoryLabel": "Coding & SWE",
+  "framework": "standalone",
+  "frameworkLabel": "Python / Standalone",
+  "author": "All-Hands-AI",
+  "github": "https://github.com/All-Hands-AI/OpenHands",
+  "stars": "43k+",
+  "license": "MIT",
+  "verified": true,
+  "featured": true,
+  "recommendedModels": [
+    "claude-3-5-sonnet",
+    "gpt-4o",
+    "deepseek-r1"
+  ],
+  "toolsRequired": [
+    "Bash Terminal",
+    "File Editor",
+    "Browser Automation",
+    "Git CLI"
+  ],
+  "tags": [
+    "software-engineering",
+    "swe-bench",
+    "coding",
+    "terminal",
+    "docker",
+    "autonomous"
+  ],
+  "description": "OpenHands is an open-source platform for autonomous software development. It interacts with the local file system, runs shell commands in Docker sandboxes, browses the web, and solves SWE-bench benchmarks autonomously.",
+  "quickstart": {
+    "type": "Docker",
+    "command": "docker run -it --pull=always -e SANDBOX_USER_ID=$(id -u) -p 3000:3000 -v /var/run/docker.sock:/var/run/docker.sock ghcr.io/all-hands-ai/openhands:latest"
+  }
+}

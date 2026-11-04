@@ -1,0 +1,39 @@
+{
+  "id": "crewai-enterprise-team",
+  "name": "CrewAI Enterprise Squad",
+  "slug": "crewai-enterprise-team",
+  "tagline": "Role-playing multi-agent team with hierarchical supervisor task delegation and memory.",
+  "category": "multiagent",
+  "categoryLabel": "Multi-Agent",
+  "framework": "crewai",
+  "frameworkLabel": "CrewAI",
+  "author": "CrewAI Inc.",
+  "github": "https://github.com/crewAIInc/crewAI",
+  "stars": "25k+",
+  "license": "MIT",
+  "verified": true,
+  "featured": true,
+  "recommendedModels": [
+    "gpt-4o",
+    "claude-3-5-sonnet",
+    "gemini-1.5-pro"
+  ],
+  "toolsRequired": [
+    "Web Search",
+    "Serper",
+    "Code Interpreter",
+    "Vector Memory"
+  ],
+  "tags": [
+    "multi-agent",
+    "hierarchical",
+    "crewai",
+    "delegation",
+    "enterprise"
+  ],
+  "description": "A production-tested CrewAI team orchestrating Researcher, Analyst, and Writer agents. Supports sequential and hierarchical workflows with persistent memory and tool execution guardrails.",
+  "quickstart": {
+    "type": "Python Pip",
+    "command": "pip install crewai crewai-tools"
+  }
+}

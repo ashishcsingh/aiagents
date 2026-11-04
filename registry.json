@@ -1,0 +1,576 @@
+[
+  {
+    "id": "aider",
+    "name": "Aider",
+    "slug": "aider",
+    "tagline": "AI pair programming in your terminal with Git repo map integration and multi-file editing.",
+    "category": "coding",
+    "categoryLabel": "Coding & SWE",
+    "framework": "standalone",
+    "frameworkLabel": "Python CLI",
+    "author": "Paul Gauthier",
+    "github": "https://github.com/Aider-AI/aider",
+    "stars": "28k+",
+    "license": "Apache-2.0",
+    "verified": true,
+    "featured": true,
+    "recommendedModels": [
+      "claude-3-5-sonnet",
+      "deepseek-r1",
+      "gpt-4o"
+    ],
+    "toolsRequired": [
+      "Git Repository Map",
+      "File AST Parser",
+      "Terminal Diff Applicator"
+    ],
+    "tags": [
+      "pair-programming",
+      "git",
+      "cli",
+      "terminal",
+      "refactoring",
+      "swe"
+    ],
+    "description": "Aider lets you pair program with frontier LLMs in your terminal. It builds a concise tree-sitter map of your entire Git codebase and automatically commits changes with descriptive Git commit messages.",
+    "quickstart": {
+      "type": "Python Pip",
+      "command": "pip install aider-chat && aider"
+    }
+  },
+  {
+    "id": "autogen-magentic-one",
+    "name": "Magentic-One (AutoGen)",
+    "slug": "autogen-magentic-one",
+    "tagline": "Generalist multi-agent system from Microsoft Research solving complex multi-step digital tasks.",
+    "category": "multiagent",
+    "categoryLabel": "Multi-Agent",
+    "framework": "autogen",
+    "frameworkLabel": "Microsoft AutoGen",
+    "author": "Microsoft Research",
+    "github": "https://github.com/microsoft/autogen",
+    "stars": "37k+",
+    "license": "MIT",
+    "verified": true,
+    "featured": true,
+    "recommendedModels": [
+      "gpt-4o",
+      "claude-3-5-sonnet"
+    ],
+    "toolsRequired": [
+      "WebSurfer Browser",
+      "Coder Sandbox",
+      "FileSurfer",
+      "Terminal"
+    ],
+    "tags": [
+      "autogen",
+      "microsoft",
+      "magentic-one",
+      "multi-agent",
+      "orchestration"
+    ],
+    "description": "Magentic-One is a multi-agent team directed by an Orchestrator agent. It routes tasks to specialized WebSurfer, FileSurfer, and Coder agents to execute web research, coding, and file handling.",
+    "quickstart": {
+      "type": "Python Pip",
+      "command": "pip install autogen-agentchat autogen-ext[magentic-one]"
+    }
+  },
+  {
+    "id": "aws-cdk-infra-synthesizer",
+    "name": "AWS CDK Infrastructure Synthesizer",
+    "slug": "aws-cdk-infra-synthesizer",
+    "tagline": "Converts architecture diagrams and natural language requirements into declarative AWS CDK v2 TypeScript/Python.",
+    "category": "devops",
+    "categoryLabel": "DevOps & Cloud",
+    "framework": "standalone",
+    "frameworkLabel": "Python / CDK CLI",
+    "author": "CloudOps Automation",
+    "github": "https://github.com/ashishcsingh/aiagents",
+    "stars": "Verified",
+    "license": "Apache-2.0",
+    "verified": true,
+    "featured": false,
+    "recommendedModels": [
+      "claude-3-5-sonnet",
+      "gpt-4o"
+    ],
+    "toolsRequired": [
+      "AWS CDK CLI",
+      "CloudFormation Linter",
+      "IAM Least-Privilege Rulebook"
+    ],
+    "tags": [
+      "aws",
+      "cdk",
+      "cloudformation",
+      "infrastructure",
+      "devops",
+      "iac"
+    ],
+    "description": "Synthesizes production-ready AWS CDK constructs with built-in KMS encryption, least-privilege IAM policies, VPC isolation, and CloudWatch metrics. Eliminates imperative Boto3 script drift.",
+    "quickstart": {
+      "type": "NPM / CLI",
+      "command": "npm install -g aws-cdk && cdk --version"
+    }
+  },
+  {
+    "id": "browser-use",
+    "name": "Browser-Use",
+    "slug": "browser-use",
+    "tagline": "Connect AI agents directly to the browser for automated web navigation, form filling, and data scraping.",
+    "category": "research",
+    "categoryLabel": "Research & Web",
+    "framework": "standalone",
+    "frameworkLabel": "Python / Playwright",
+    "author": "browser-use",
+    "github": "https://github.com/browser-use/browser-use",
+    "stars": "29k+",
+    "license": "MIT",
+    "verified": true,
+    "featured": true,
+    "recommendedModels": [
+      "claude-3-5-sonnet",
+      "gpt-4o"
+    ],
+    "toolsRequired": [
+      "Playwright Browser",
+      "Vision Screen Inspector",
+      "DOM Tree Parser"
+    ],
+    "tags": [
+      "browser",
+      "web-automation",
+      "scraping",
+      "playwright",
+      "vision",
+      "automation"
+    ],
+    "description": "Browser-Use gives LLMs sight and control over a real Chromium browser. It converts interactive web elements into accessible coordinate systems and handles multi-tab navigation, authentication, and dynamic web applications.",
+    "quickstart": {
+      "type": "Python Pip",
+      "command": "pip install browser-use playwright && playwright install"
+    }
+  },
+  {
+    "id": "contract-risk-auditor",
+    "name": "Contract & Lease Risk Auditor",
+    "slug": "contract-risk-auditor",
+    "tagline": "Instant plain-English legal risk auditor identifying hidden liability, indemnification, and auto-renewals.",
+    "category": "productivity",
+    "categoryLabel": "Productivity & Docs",
+    "framework": "standalone",
+    "frameworkLabel": "Gemini & NotebookLM Native",
+    "author": "aiagent.org Core",
+    "github": "https://github.com/ashishcsingh/aiagents",
+    "stars": "Verified",
+    "license": "Apache-2.0",
+    "verified": true,
+    "featured": true,
+    "recommendedModels": [
+      "gemini-2.0-flash",
+      "claude-3-5-sonnet"
+    ],
+    "toolsRequired": [
+      "PDF Document Extractor",
+      "Clause Risk Rubric",
+      "Plain-English Translator"
+    ],
+    "tags": [
+      "legal",
+      "contracts",
+      "leases",
+      "gemini",
+      "pdf",
+      "productivity"
+    ],
+    "description": "Specialized agent prompt pipeline that parses lengthy PDF contracts, compares provisions against consumer protection standards, and highlights predatory termination penalties in under 10 seconds.",
+    "quickstart": {
+      "type": "Browser Guide",
+      "command": "Open https://aiagent.org/articles/2026-11-03/tame-long-pdfs-contracts-ai/ to run in Gemini / NotebookLM"
+    }
+  },
+  {
+    "id": "crewai-enterprise-team",
+    "name": "CrewAI Enterprise Squad",
+    "slug": "crewai-enterprise-team",
+    "tagline": "Role-playing multi-agent team with hierarchical supervisor task delegation and memory.",
+    "category": "multiagent",
+    "categoryLabel": "Multi-Agent",
+    "framework": "crewai",
+    "frameworkLabel": "CrewAI",
+    "author": "CrewAI Inc.",
+    "github": "https://github.com/crewAIInc/crewAI",
+    "stars": "25k+",
+    "license": "MIT",
+    "verified": true,
+    "featured": true,
+    "recommendedModels": [
+      "gpt-4o",
+      "claude-3-5-sonnet",
+      "gemini-1.5-pro"
+    ],
+    "toolsRequired": [
+      "Web Search",
+      "Serper",
+      "Code Interpreter",
+      "Vector Memory"
+    ],
+    "tags": [
+      "multi-agent",
+      "hierarchical",
+      "crewai",
+      "delegation",
+      "enterprise"
+    ],
+    "description": "A production-tested CrewAI team orchestrating Researcher, Analyst, and Writer agents. Supports sequential and hierarchical workflows with persistent memory and tool execution guardrails.",
+    "quickstart": {
+      "type": "Python Pip",
+      "command": "pip install crewai crewai-tools"
+    }
+  },
+  {
+    "id": "gpt-researcher",
+    "name": "GPT-Researcher",
+    "slug": "gpt-researcher",
+    "tagline": "Autonomous agent for in-depth online research, citation aggregation, and synthesis reports.",
+    "category": "research",
+    "categoryLabel": "Research & Web",
+    "framework": "langgraph",
+    "frameworkLabel": "LangGraph",
+    "author": "Tavily AI",
+    "github": "https://github.com/assafelovic/gpt-researcher",
+    "stars": "18k+",
+    "license": "Apache-2.0",
+    "verified": true,
+    "featured": true,
+    "recommendedModels": [
+      "gpt-4o",
+      "claude-3-5-sonnet",
+      "gemini-2.0-flash"
+    ],
+    "toolsRequired": [
+      "Tavily Search API",
+      "Web Scraper",
+      "Markdown Document Synthesizer"
+    ],
+    "tags": [
+      "research",
+      "tavily",
+      "scraping",
+      "synthesis",
+      "langgraph",
+      "citations"
+    ],
+    "description": "GPT Researcher produces comprehensive, cited, multi-page analytical reports by scraping over 20 web sources in parallel, cross-verifying claims, and assembling structured outlines.",
+    "quickstart": {
+      "type": "Python Pip",
+      "command": "pip install gpt-researcher"
+    }
+  },
+  {
+    "id": "inbox-zero-triage",
+    "name": "7-Minute Inbox Zero Triage Agent",
+    "slug": "inbox-zero-triage",
+    "tagline": "Triage 50+ unread emails, extract urgent action items, and draft replies in your exact voice.",
+    "category": "productivity",
+    "categoryLabel": "Productivity & Docs",
+    "framework": "standalone",
+    "frameworkLabel": "Claude & Gmail API",
+    "author": "aiagent.org Core",
+    "github": "https://github.com/ashishcsingh/aiagents",
+    "stars": "Verified",
+    "license": "Apache-2.0",
+    "verified": true,
+    "featured": false,
+    "recommendedModels": [
+      "claude-3-5-sonnet",
+      "gpt-4o",
+      "gemini-2.0-flash"
+    ],
+    "toolsRequired": [
+      "IMAP/Gmail API",
+      "Tone Matcher",
+      "Action Item Parser"
+    ],
+    "tags": [
+      "email",
+      "productivity",
+      "inbox-zero",
+      "claude",
+      "communication"
+    ],
+    "description": "Classifies incoming email by urgency (Urgent, Need Input, Low Priority, Newsletters), generates 1-sentence decision summaries, and prepares context-aware reply drafts ready for 1-click sending.",
+    "quickstart": {
+      "type": "Browser Guide",
+      "command": "Open https://aiagent.org/articles/2026-10-30/inbox-zero-7-minute-routine/ to run the 7-minute routine"
+    }
+  },
+  {
+    "id": "k8s-sre-remediator",
+    "name": "Kubernetes SRE Incident Triage Agent",
+    "slug": "k8s-sre-remediator",
+    "tagline": "Autonomous Kubernetes diagnostics agent that parses CrashLoopBackOff logs, pod events, and OOM issues.",
+    "category": "devops",
+    "categoryLabel": "DevOps & Cloud",
+    "framework": "mcp",
+    "frameworkLabel": "MCP Native",
+    "author": "CloudOps Automation",
+    "github": "https://github.com/cloudops-agent/k8s-agent",
+    "stars": "5k+",
+    "license": "Apache-2.0",
+    "verified": true,
+    "featured": false,
+    "recommendedModels": [
+      "claude-3-5-sonnet",
+      "gpt-4o"
+    ],
+    "toolsRequired": [
+      "kubectl MCP Server",
+      "Prometheus Metrics Tool",
+      "Slack Bot"
+    ],
+    "tags": [
+      "kubernetes",
+      "devops",
+      "sre",
+      "troubleshooting",
+      "mcp",
+      "docker"
+    ],
+    "description": "Monitors Kubernetes alerts, runs investigative kubectl commands via Model Context Protocol (MCP), checks memory/CPU limits, identifies bad container config, and drafts incident postmortems.",
+    "quickstart": {
+      "type": "MCP Command",
+      "command": "npx -y @modelcontextprotocol/server-kubernetes"
+    }
+  },
+  {
+    "id": "langgraph-supervisor-swarm",
+    "name": "LangGraph Supervisor Swarm",
+    "slug": "langgraph-supervisor-swarm",
+    "tagline": "Stateful cyclic graph agent team with human-in-the-loop pause, resume, and checkpointing.",
+    "category": "multiagent",
+    "categoryLabel": "Multi-Agent",
+    "framework": "langgraph",
+    "frameworkLabel": "LangGraph",
+    "author": "LangChain",
+    "github": "https://github.com/langchain-ai/langgraph",
+    "stars": "19k+",
+    "license": "MIT",
+    "verified": true,
+    "featured": false,
+    "recommendedModels": [
+      "claude-3-5-sonnet",
+      "gpt-4o",
+      "gemini-1.5-pro"
+    ],
+    "toolsRequired": [
+      "Postgres Checkpointer",
+      "Custom Tool Executor",
+      "State Schema"
+    ],
+    "tags": [
+      "langgraph",
+      "langchain",
+      "stateful",
+      "checkpoints",
+      "human-in-the-loop"
+    ],
+    "description": "Production architecture for multi-agent coordination using LangGraph. Features cyclic state updates, conditional branch routing, persistent Postgres checkpoints, and approval interrupts.",
+    "quickstart": {
+      "type": "Python Pip",
+      "command": "pip install langgraph langchain-openai"
+    }
+  },
+  {
+    "id": "meal-grocery-agent",
+    "name": "Fridge-to-Table Meal & Grocery Agent",
+    "slug": "meal-grocery-agent",
+    "tagline": "Snap a photo of your fridge and generate a 5-day dinner menu with exact missing ingredient grocery lists.",
+    "category": "productivity",
+    "categoryLabel": "Productivity & Docs",
+    "framework": "standalone",
+    "frameworkLabel": "Gemini Multimodal",
+    "author": "aiagent.org Core",
+    "github": "https://github.com/ashishcsingh/aiagents",
+    "stars": "Verified",
+    "license": "Apache-2.0",
+    "verified": true,
+    "featured": false,
+    "recommendedModels": [
+      "gemini-2.0-flash",
+      "gpt-4o-mini"
+    ],
+    "toolsRequired": [
+      "Multimodal Vision OCR",
+      "Macro Nutrition Estimator",
+      "Grocery Aisle Grouper"
+    ],
+    "tags": [
+      "gemini",
+      "vision",
+      "meal-planning",
+      "grocery",
+      "budget",
+      "productivity"
+    ],
+    "description": "Analyzes raw photo uploads of your refrigerator shelves, categorizes perishable items by expiry urgency, plans meals around on-hand ingredients, and exports a shopping checklist organized by supermarket aisle.",
+    "quickstart": {
+      "type": "Browser Guide",
+      "command": "Open https://aiagent.org/articles/2026-11-03/smart-weekly-meal-budget-planner/ to run via Gemini"
+    }
+  },
+  {
+    "id": "openhands",
+    "name": "OpenHands (formerly OpenDevin)",
+    "slug": "openhands",
+    "tagline": "Autonomous AI software engineer that writes code, runs terminal commands, and resolves GitHub issues.",
+    "category": "coding",
+    "categoryLabel": "Coding & SWE",
+    "framework": "standalone",
+    "frameworkLabel": "Python / Standalone",
+    "author": "All-Hands-AI",
+    "github": "https://github.com/All-Hands-AI/OpenHands",
+    "stars": "43k+",
+    "license": "MIT",
+    "verified": true,
+    "featured": true,
+    "recommendedModels": [
+      "claude-3-5-sonnet",
+      "gpt-4o",
+      "deepseek-r1"
+    ],
+    "toolsRequired": [
+      "Bash Terminal",
+      "File Editor",
+      "Browser Automation",
+      "Git CLI"
+    ],
+    "tags": [
+      "software-engineering",
+      "swe-bench",
+      "coding",
+      "terminal",
+      "docker",
+      "autonomous"
+    ],
+    "description": "OpenHands is an open-source platform for autonomous software development. It interacts with the local file system, runs shell commands in Docker sandboxes, browses the web, and solves SWE-bench benchmarks autonomously.",
+    "quickstart": {
+      "type": "Docker",
+      "command": "docker run -it --pull=always -e SANDBOX_USER_ID=$(id -u) -p 3000:3000 -v /var/run/docker.sock:/var/run/docker.sock ghcr.io/all-hands-ai/openhands:latest"
+    }
+  },
+  {
+    "id": "smolagents-codeagent",
+    "name": "Hugging Face Smolagents",
+    "slug": "smolagents-codeagent",
+    "tagline": "Minimalist, code-first AI agent framework executing actions as Python code blocks.",
+    "category": "coding",
+    "categoryLabel": "Coding & SWE",
+    "framework": "smolagents",
+    "frameworkLabel": "smolagents",
+    "author": "Hugging Face",
+    "github": "https://github.com/huggingface/smolagents",
+    "stars": "14k+",
+    "license": "Apache-2.0",
+    "verified": true,
+    "featured": false,
+    "recommendedModels": [
+      "qwen-2.5-coder",
+      "claude-3-5-sonnet",
+      "deepseek-r1"
+    ],
+    "toolsRequired": [
+      "Python AST Sandbox",
+      "DuckDuckGo Search",
+      "HuggingFace Hub"
+    ],
+    "tags": [
+      "huggingface",
+      "smolagents",
+      "python",
+      "code-actions",
+      "minimalist"
+    ],
+    "description": "Smolagents writes executable Python code instead of raw JSON tool calls, unlocking expressiveness for loops, conditionals, and data transformations in ~1,000 lines of core framework code.",
+    "quickstart": {
+      "type": "Python Command",
+      "command": "pip install smolagents && python -c 'from smolagents import CodeAgent, HfApiModel; CodeAgent(tools=[], model=HfApiModel()).run(\"Hello!\")'"
+    }
+  },
+  {
+    "id": "stagehand-browser-agent",
+    "name": "Stagehand Web Automation Agent",
+    "slug": "stagehand-browser-agent",
+    "tagline": "AI web browsing framework with natural language act(), extract(), and observe() primitives.",
+    "category": "research",
+    "categoryLabel": "Research & Web",
+    "framework": "standalone",
+    "frameworkLabel": "TypeScript / Playwright",
+    "author": "Browserbase",
+    "github": "https://github.com/browserbase/stagehand",
+    "stars": "8k+",
+    "license": "MIT",
+    "verified": true,
+    "featured": false,
+    "recommendedModels": [
+      "claude-3-5-sonnet",
+      "gpt-4o"
+    ],
+    "toolsRequired": [
+      "Playwright Session",
+      "Accessibility Tree Parser",
+      "LLM Extraction Schema"
+    ],
+    "tags": [
+      "stagehand",
+      "browserbase",
+      "playwright",
+      "scraping",
+      "web-automation"
+    ],
+    "description": "Built by Browserbase, Stagehand provides 3 intuitive primitives for web automation: page.act() for clicking/typing in plain English, page.extract() for schema-typed extraction, and page.observe() for next-step planning.",
+    "quickstart": {
+      "type": "NPM / NPX",
+      "command": "npx -y stagehand init"
+    }
+  },
+  {
+    "id": "vanna-sql-agent",
+    "name": "Vanna.ai SQL Agent",
+    "slug": "vanna-sql-agent",
+    "tagline": "RAG-driven autonomous Text-to-SQL agent with schema memory and query self-correction.",
+    "category": "data",
+    "categoryLabel": "Data & SQL",
+    "framework": "standalone",
+    "frameworkLabel": "Python / RAG",
+    "author": "Vanna AI",
+    "github": "https://github.com/vanna-ai/vanna",
+    "stars": "12k+",
+    "license": "MIT",
+    "verified": true,
+    "featured": false,
+    "recommendedModels": [
+      "gpt-4o",
+      "claude-3-5-sonnet"
+    ],
+    "toolsRequired": [
+      "PostgreSQL/Snowflake Connector",
+      "ChromaDB/Pinecone Vector Store",
+      "SQL Validator"
+    ],
+    "tags": [
+      "sql",
+      "database",
+      "analytics",
+      "rag",
+      "text-to-sql",
+      "bi"
+    ],
+    "description": "Vanna trains a vector store on your database DDL schemas, documentation, and historical queries to generate high-accuracy SQL, execute it safely, and plot data charts automatically.",
+    "quickstart": {
+      "type": "Python Pip",
+      "command": "pip install vanna"
+    }
+  }
+]
